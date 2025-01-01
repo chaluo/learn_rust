@@ -1,0 +1,10 @@
+# To save headache (ie accidently commiting a binary), we are going to white list extensions that we can commit
+*
+!.gitignore
+!*.md
+!*.rs
+!*.toml
+!*.lock
+!*/
+target/
+.idea/
